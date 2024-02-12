@@ -1,5 +1,5 @@
 {
-  "name": "1iconify",
+  "name": "iconify",
   "version": "1.0.0",
   "description": "test",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && rollup -c",
-    "svgr": "svgr --icon --title-prop --replace-attr-values '#1D1D1D=currentColor' -d src assets"
+    "svgr": "svgr --icon --title-prop --replace-attr-values #1D1D1D=currentColor -d src assets"
   },
   "author": "Mrunal Patel",
   "license": "ISC",
